@@ -1,0 +1,30 @@
+.map-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.chat-window {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 55%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+.map-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.appbar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}

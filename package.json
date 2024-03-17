@@ -1,0 +1,31 @@
+{
+  "name": "zones",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.15.12",
+    "@mui/material": "^5.15.12",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@ubilabs/threejs-overlay-view": "^0.7.1",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "^0.147.0",
+    "use-places-autocomplete": "^4.0.0",
+    "firebase": "^10.8.1",
+    "react-firebase-hooks": "^5.1.1"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
